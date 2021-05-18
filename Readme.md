@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Vlad Boboshko](https://up.htmlacademy.ru/htmlcss/31/user/1753881).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Козловский] (https://htmlacademy.ru/profile/id881967).
 
 ---
 
