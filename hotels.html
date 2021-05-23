@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">ИНФОРМАЦИЯ</a></li>
+          <li><a href="#">ФОТО И ВИДЕО</a></li>
+          <li><a href="#">КАРТА ШТАТА</a></li>
+          <li><a href="#">ГОСТИНИЦА</a></li>
+        </ul>
+      </nav>
+      <a href="index.html">
+        <img src="https://via.placeholder.com/138x70" alt="верхний логотип">
+      </a>
+    </header>
+    <main>
+      <!--параметры поиска-->
+      <div>
+        <form method="GET" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li>
+          <input type="checkbox" name="pool" id="pool" checked>
+          <label for="pool">Басейн</label>
+          </li>
+          <li>
+            <input type="checkbox" name="parking" id="parking">
+            <label for="parking">Парковка</label>
+          </li>
+          <li>
+            <input type="checkbox" name="wifi" id="wifi">
+            <label for="wifi">wi-fi</label>
+          </li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="hotel" id="hotel" checked>
+              <label for="hotel">Гостиница</label>
+            </li>
+            <li>
+              <input type="checkbox" name="motel" id="motel" checked>
+              <label for="motel">Мотель</label>
+            </li>
+            <li>
+              <input type="checkbox" name="appartments" id="appartments" checked>
+              <label for="appartments">Апартаменты</label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <div>
+          <fieldset>
+            <legend>Стоимость в сутки, ₽:</legend>
+            <input type="text" placeholder="От 0" name="hotelprice0">
+            <input type="text" placeholder="До 3000" name="hotelprice3000">
+          </fieldset>
+          <button type="submit">Показать</button>
+        </div>    
+        </form>
+      </div>
+
+        <p>
+          <strong>Найдено: 3</strong>
+        </p>
+        
+        <section>
+          <h3>Сортировка:</h3>
+          <ul>
+            <li>По цене</li>
+            <li><a href="#"></a> По типу</li>
+            <li><a href="#"></a> По рейтингу</li>
+          </ul>
+          <!--Простые заглушки-->
+          <ul>
+            <li>
+              <a>
+              <img src="https://via.placeholder.com/11x10" alt="searchbyhigh">
+            </a>
+            </li>
+            <li>
+              <a>
+              <img src="https://via.placeholder.com/11x10" alt="searchbylow">
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <ul>
+            <li>
+              <div>
+                  <img src="https://via.placeholder.com/135x90" alt="Amara Resort & Spa">
+                  <div>
+                    <a href="#">
+                      <h2>Amara Resort & Spa</h2>
+                    </a>
+                    <div>
+                      <div>
+                        <span>Гостиница</span>
+                        <a href="#">Подробнее</a>
+                      </div>
+
+                      <div>
+                        <span>От 4000 ₽</span>
+                        <a href="#">Забронировать</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div>
+                <p><span>рейтинг</span></p>
+                <p>Рейтинг: 8,5</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                  <img src="https://via.placeholder.com/135x90" alt="Desert Quail Inn">
+                  <div>
+                    <a href="#">
+                      <h2>Desert Quail Inn</h2>
+                    </a>
+                    <div>
+                      <div>
+                        <span>Мотель</span>
+                        <a href="#">Подробнее</a>
+                      </div>
+
+                      <div>
+                        <span>От 3000 ₽</span>
+                        <a href="#">Забронировать</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div>
+                <p><span>рейтинг</span></p>
+                <p>Рейтинг: 8,9</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                  <img src="https://via.placeholder.com/135x90" alt="Villas at Poco Diablo">
+                  <div>
+                    <a href="#">
+                      <h2>Villas at Poco Diablo</h2>
+                    </a>
+                    <div>
+                      <div>
+                        <span>Гостиница</span>
+                        <a href="#">Подробнее</a>
+                      </div>
+
+                      <div>
+                        <span>От 2000 ₽</span>
+                        <a href="#">Забронировать</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div>
+                <p><span>рейтинг</span></p>
+                <p>Рейтинг: 9,2</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+    </main>
+
+    <footer>
+      <h3>#visitSEDONA</h3>
+      <a href="tel:+78005558628">+7 800 555-86-28</a>
+      <ul>
+        <li>
+          <a href="#"></a>
+          <img src="https://via.placeholder.com/46x48" alt="twitter">
+          <!---twitter-->
+        </li>
+        <li>
+          <a href="#"></a>
+          <img src="https://via.placeholder.com/46x48" alt="facebook">
+          <!--facebook-->
+        </li>
+        <li>
+          <a href="#"></a>
+          <img src="https://via.placeholder.com/46x48" alt="youtube">
+          <!--youtube-->
+        </li>
+      </ul>
+      <p>
+        <b>Website by</b>
+        <a href="https://htmlacademy.ru/intensive/htmlcss">
+        <img src="https://via.placeholder.com/115x33" alt="htmlacademyLogo">
+        </a>
+      </p>
+
+    </footer>
+
+
+  </body>
+</html>
