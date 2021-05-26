@@ -24,38 +24,38 @@
         <form method="GET" action="https://echo.htmlacademy.ru">
         <fieldset>
           <legend>Инфраструктура:</legend>
-          <ul>
-            <li>
+          <p>
           <input type="checkbox" name="pool" id="pool" checked>
           <label for="pool">Басейн</label>
-          </li>
-          <li>
+          </p>
+
+          <p>
             <input type="checkbox" name="parking" id="parking">
             <label for="parking">Парковка</label>
-          </li>
-          <li>
+          </p>
+
+          <p>
             <input type="checkbox" name="wifi" id="wifi">
             <label for="wifi">wi-fi</label>
-          </li>
-          </ul>
-        </fieldset>
-
+          </p>
+        </fieldset> 
         <fieldset>
           <legend>Тип жилья:</legend>
-          <ul>
-            <li>
-              <input type="checkbox" name="hotel" id="hotel" checked>
-              <label for="hotel">Гостиница</label>
-            </li>
-            <li>
-              <input type="checkbox" name="motel" id="motel" checked>
-              <label for="motel">Мотель</label>
-            </li>
-            <li>
-              <input type="checkbox" name="appartments" id="appartments" checked>
-              <label for="appartments">Апартаменты</label>
-            </li>
-          </ul>
+          <p>
+            <input type="checkbox" name="hotel" id="hotel" checked>
+            <label for="hotel">Гостиница</label>
+          </p>
+
+          <p>
+            <input type="checkbox" name="motel" id="motel" checked>
+            <label for="motel">Мотель</label>
+          </p>
+
+          <p>
+            <input type="checkbox" name="appartments" id="appartments" checked>
+            <label for="appartments">Апартаменты</label>
+          </p>
+          
         </fieldset>
 
         <div>
@@ -74,11 +74,11 @@
         </p>
         
         <section>
-          <h3>Сортировка:</h3>
+          <p>Сортировка:</p>
           <ul>
             <li>По цене</li>
-            <li><a href="#"></a> По типу</li>
-            <li><a href="#"></a> По рейтингу</li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По рейтингу</a></li>
           </ul>
           <!--Простые заглушки-->
           <ul>
@@ -95,94 +95,96 @@
           </ul>
         </section>
 
+        <!--hottel-wrapper-start-->
+
         <section>
           <ul>
-            <li>
-              <div>
-                  <img src="https://via.placeholder.com/135x90" alt="Amara Resort & Spa">
-                  <div>
+              <li>
+                <div>
+                  <img src="https://via.placeholder.com/135x90" alt="Фото гостиницы amara resort">
+                </div>
                     <a href="#">
                       <h2>Amara Resort & Spa</h2>
                     </a>
-                    <div>
+
                       <div>
                         <span>Гостиница</span>
-                        <a href="#">Подробнее</a>
+                        <span>От 4000 ₽</span>
                       </div>
 
                       <div>
-                        <span>От 4000 ₽</span>
+                         <a href="#">Подробнее</a> 
                         <a href="#">Забронировать</a>
                       </div>
-                    </div>
+                  <div>
+                    <section>рейтинг
+                      
+                    </section> <!--5 Stars-->
+                    <p>Рейтинг: 8,5</p>
                   </div>
-              </div>
-
-              <div>
-                <p><span>рейтинг</span></p>
-                <p>Рейтинг: 8,5</p>
-              </div>
             </li>
 
             <li>
-              <div>
-                  <img src="https://via.placeholder.com/135x90" alt="Desert Quail Inn">
                   <div>
+                    <img src="https://via.placeholder.com/135x90" alt="Фото гостиницы Desert Quail Inn">
+                  </div>
+
                     <a href="#">
                       <h2>Desert Quail Inn</h2>
                     </a>
-                    <div>
+     
                       <div>
                         <span>Мотель</span>
-                        <a href="#">Подробнее</a>
+                        <span>От 3000 ₽</span>
                       </div>
 
                       <div>
-                        <span>От 3000 ₽</span>
+                        <a href="#">Подробнее</a>
                         <a href="#">Забронировать</a>
                       </div>
-                    </div>
-                  </div>
-              </div>
 
-              <div>
-                <p><span>рейтинг</span></p>
-                <p>Рейтинг: 8,9</p>
-              </div>
-            </li>
+                      <div>
+                        <section>рейтинг
+
+                        </section> <!--3 Stars-->
+                        <p>Рейтинг: 8,9</p>
+                      </div>
+                    </li>
 
             <li>
-              <div>
-                  <img src="https://via.placeholder.com/135x90" alt="Villas at Poco Diablo">
                   <div>
+                    <img src="https://via.placeholder.com/135x90" alt="Villas at Poco Diablo">
+                  </div>
+                  
                     <a href="#">
                       <h2>Villas at Poco Diablo</h2>
                     </a>
-                    <div>
+                    
                       <div>
                         <span>Гостиница</span>
-                        <a href="#">Подробнее</a>
+                        <span>От 2000 ₽</span>
                       </div>
 
                       <div>
-                        <span>От 2000 ₽</span>
+                        <a href="#">Подробнее</a>
                         <a href="#">Забронировать</a>
                       </div>
-                    </div>
-                  </div>
-              </div>
+                    
+                      <div>
+                        <section>рейтинг
 
-              <div>
-                <p><span>рейтинг</span></p>
-                <p>Рейтинг: 9,2</p>
-              </div>
-            </li>
-          </ul>
+                        </section>             <!--2 Stars-->
+                        <p>Рейтинг: 9,2</p>
+                      </div>
+                    </li>
+                  </ul>
         </section>
+        <!--Hotel-wrapper-end-->
+
     </main>
 
     <footer>
-      <h3>#visitSEDONA</h3>
+      <p>#visitSEDONA</p>
       <a href="tel:+78005558628">+7 800 555-86-28</a>
       <ul>
         <li>
