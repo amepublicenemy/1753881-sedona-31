@@ -1,63 +1,76 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">ИНФОРМАЦИЯ</a></li>
-          <li><a href="#">ФОТО И ВИДЕО</a></li>
-          <li><a href="#">КАРТА ШТАТА</a></li>
-          <li><a href="hotels.html">ГОСТИНИЦА</a></li>
+  <body class="page-body">
+    <header class="header">
+      <nav class="navigation">
+        <a class="header-logo" href="index.html">
+          <img src="img/logo.png" width="138" height="70" alt="верхний логотип">
+        </a>
+        <ul class="navigation-list">
+          <li class="left-item"><a class="navigation-link" href="#">ИНФОРМАЦИЯ</a></li>
+          <li class="left-item"><a class="navigation-link" href="#">ФОТО И ВИДЕО</a></li>
+          <li class="right-item"><a class="navigation-link" href="#">КАРТА ШТАТА</a></li>
+          <li class="right-item"><a class="navigation-link" href="hotels.html">ГОСТИНИЦА</a></li>
         </ul>
       </nav>
-      <a href="index.html">
-        <img src="img/logo.png" width="138" height="70" alt="верхний логотип">
-      </a>
     </header>
 
-    <main>
-      <h1>Туристический городок Седона</h1>
-      <div class="backgroundmain"></div>
-      <div class="header_wrapper">
-        <img src="img/Sedonatext.png" width="456" height="350" alt="welcome to sedona">
-      
-        <div class="wrapper_tittle">
-          <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-          <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    <main class="index-main">
+
+      <h1 class="hidden">Туристический городок Седона</h1>
+
+      <section class="preview-wrapper">
+          <div class="preview-img">
+            <img class="preview-photo" src="img/Sedonatext.png" width="456" height="350" alt="welcome to sedona">
+          </div>
+        <div class="preview-title">
+          <h2 class="preview-reasons">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+          <p class="preview-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         </div>
-      </div>
+      </section>
 
 
-      <section>
-           <ul>
-         
-            <li>
-            <h2>Настоящий городок</h2>
-            <p>— №1 —</p>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="img/contentphoto1.jpg" width="800" height="256" alt="Фото города Седона">
+      <section class="content">
+           <ul class="content-list">
+            <li class="content-item">
+              <div class="content-box">
+              <div class="first-reason">
+               
+                <h2>Настоящий городок</h2>
+                <p>— №1 —</p>
+                <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            
+              </div>
+              
+              <div class="first-reason-photo">
+                <img src="img/contentphoto1.jpg" width="800" height="256" alt="Фото города Седона">
+               </div>
+              </div>
 
-        <ul>
-            <li>
-                <div><img src="img/house.svg" width="75" height="72" alt="Домик"></div>
-                <h3>Жильё</h3>
+        <ul class="feature-list">
+            <li class="feature-box">
+                <div class="house"><img src="img/house.svg" width="75" height="72" alt="Домик"></div>
+                <h2>Жильё</h2>
                 <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
               
-            <li>
-              <div><img src="img/burger.svg" width="75" height="70" alt=""></div>
-              <h3>Еда</h3>
+            <li class="feature-box">
+              <div class="burger"><img src="img/burger.svg" width="75" height="70" alt=""></div>
+              <h2>Еда</h2>
               <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </li>
 
-            <li>
-              <div><img src="img/gift.svg" width="64" height="77" alt=""></div>
-              <h3>Сувениры</h3>
+            <li class="feature-box">
+              <div class="gift"><img src="img/gift.svg" width="64" height="77" alt=""></div>
+              <h2>Сувениры</h2>
               <p>Не только китайского, но и местного производства!</p>
             </li>
 
@@ -65,26 +78,36 @@
             </li>
         
           
-            <li>
-            <h2>Там есть Мост дьявола</h2>
-            <p>— №2 —</p>
-            <p>Да, по нему можно пройти! Если конечно
-                вы осмелитесь</p>
-                <img src="img/contentphoto2.jpg" width="800" height="256" alt="Мост дьявола по которому можно пройтись">
-                <ul>
-              <li>
+            <li class="content-item">
+
+              <div class="content-box">
+                <div class="second-reason-photo">
+                  <img src="img/contentphoto2.jpg" width="800" height="256" alt="Мост дьявола по которому можно пройтись">
+                </div>
+
+                <div class="second-reason">
+                  <h2>Там есть Мост дьявола</h2>
+                  <p>— №2 —</p>
+                  <p>Да, по нему можно пройти! Если конечно
+                      вы осмелитесь</p>
+                </div>
+              </div>
+
+
+                <ul class="grey-reasons">
+              <li class="number-reasons">
                   <h3>небольшая площадь</h3>
-                  <p>— №3 —</p>
+                  <span>— №3 —</span>
                   <p>все достопримечательности находятся очень близко</p>
               </li>
-              <li>
+              <li class="number-reasons">
                   <h3>красивая дорога</h3>
-                  <p>— №4 —</p>
+                  <span>— №4 —</span>
                   <p>ехать в седону из лас-вегаса совсем не скучно!</p>
               </li>
-              <li>
+              <li class="number-reasons">
                   <h3>мало туристов</h3>
-                  <p>— №5 —</p>
+                  <span>— №5 —</span>
                   <p>большинство едет в гранд каньон и толпится там</p>
               </li>
             </ul>
@@ -94,42 +117,49 @@
 
       </section>
 
-        <section>
-          <h2>Заинтересовались?</h2>
-          <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-          <button type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+        <section class="registration">
+          <div class="interested-container">
+            <h2>Заинтересовались?</h2>
+            <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+          </div>
+          <div class="search-container">
+            <button class="button" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+          </div>
         </section>
 
-          <div>
-          <img src="img/map.jpg" width="1999" height="594" alt="Местоположение седоны на карте">
+          <div class="map">
+          <img src="img/map.jpg" width="1200" height="594" alt="Местоположение седоны на карте">
           </div>
 
     </main>
 
-    <footer>
-      <p>#visitSEDONA</p>
-      <a href="tel:+78005558628">+7 800 555-86-28</a>
-      <ul>
-        <li>
-          <a href="#">
-          <img src="img/twitter.svg" width="46" height="48" alt="twitter">
+    <footer class="main-footer footer">
+      <div class="phone">
+        <p>#visitSEDONA</p>
+        <a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+      </div>
+
+      <ul class="social">
+        <li class="footer-button">
+          <a class="social-btn" href="#">
+          <img src="img/twitter.svg" width="17" height="17" alt="twitter">
           </a>
-          <!---twitter-->
+
         </li>
-        <li>
-          <a href="#">
-          <img src="img/facebook.svg" width="46" height="48" alt="facebook">
+        <li class="footer-button">
+          <a class="social-btn" href="#">
+          <img src="img/facebook.svg" width="12" height="22" alt="facebook">
         </a>
-          <!--facebook-->
+
         </li>
-        <li>
-          <a href="#">
-          <img src="img/youtube.svg" width="46" height="48" alt="youtube">
+        <li class="footer-button">
+          <a class="social-btn" href="#">
+          <img src="img/youtube.svg" width="20" height="16" alt="youtube">
         </a>
-          <!--youtube-->
+
         </li>
       </ul>
-      <div>
+      <div class="copyright">
         <b>Website by</b>
         <a href="https://htmlacademy.ru/intensive/htmlcss">
         <img src="img/logo_htmlacademy.png" width="115" height="33" alt="htmlacademyLogo">
